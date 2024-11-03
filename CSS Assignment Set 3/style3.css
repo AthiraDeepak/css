@@ -1,0 +1,63 @@
+body{
+    margin-top:  0px;
+}
+h1{
+    color: rgb(21, 184, 248);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.Content div{
+    float: left;
+    padding: 10px 89px 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sidebar h3{
+color: rgb(241, 77, 77);
+}
+.main h3{
+    color: rgb(21, 184, 248);
+}
+
+.car{
+    width: 220px;
+    height: 150px;
+}
+.car1{
+    width: 300px;
+    height: 150px;
+}
+.aside h3{
+    text-align: center;
+    color: rgba(205, 205, 8, 0.868);
+   
+}
+.aside1 h3{
+    margin-left: 140px;
+    color: rgba(205, 205, 8, 0.868);
+}
+.table{
+    width: 145%;
+
+    border-collapse: collapse;
+}
+.table1{
+    width: 200%;
+margin-left: -96px;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 0;
+}
+th,td{
+    text-align: left;
+}
+th{
+    color: red;
+}
+hr{
+    width: 87%;
+   border: 1px solid rgb(21, 184, 248);
+}

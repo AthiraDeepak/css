@@ -1,0 +1,78 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+.write{
+width: 50%;
+text-align: center;
+float: left;
+margin-left: 150px;
+}
+ .text input{
+width: 45%;
+margin: 5px;
+box-shadow: 0px 0px 5px grey;
+border: 1px solid rgb(155, 151, 151);
+height: 20px;
+}
+p{
+    margin-left: -30px;
+    margin-top: 0px;
+}
+.radio {
+    margin-left: -180px; 
+}
+textarea{
+margin-top: 15px;
+box-shadow: 0px 0px 5px grey;
+border: 1px solid rgb(155, 151, 151);
+width: 45%;
+height: 150px;
+}
+.btn{
+    width: 10%;
+    color: white;
+    background-color: rgb(120, 118, 118);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+}
+.experts{
+    margin-top: 60px;
+    box-shadow: 0px 0px 5px grey;
+    border: 1px solid rgb(155, 151, 151);
+    width: 35%;
+    float: left;
+    text-align: center;
+    margin-left: -130px;
+}
+.pic{
+    width: 70px;
+    height: 80px;
+    border-radius: 50%;
+}
+.photo {
+    margin-top: 40px;
+   display: flex;
+
+ 
+  
+}
+.photo p{
+    text-align:center;
+    margin-left: 3px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}

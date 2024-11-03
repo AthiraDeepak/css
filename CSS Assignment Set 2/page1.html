@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>set2:p1</title>
+</head>
+<body>
+    <style>
+        .container{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            display: grid;
+            grid-template-areas: "header""nav";
+            grid-template-rows: auto;
+            grid-template-columns: auto;
+            width: 50%;
+            margin-left: 25%;
+            background-color: lightgray;
+         
+        }
+        .header{
+             margin: 3px;
+            border: 1px solid black;
+            padding: 15px;
+            background-color: white;
+         }
+        .nav{
+     
+            margin: 3px;
+            border: 1px solid black;
+            padding: 15px; 
+            background-color: white;
+        }
+        .container2{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            display: grid;
+            grid-template-areas: "section" "article" ;
+            grid-template-rows: auto ;
+            grid-template-columns: 5fr 3fr;
+            width: 50%;
+            margin-left: 25%;
+            background-color: lightgray;
+            
+        }
+        .section{
+          grid-area: section;
+          margin: 3px;
+            border: 1px solid black;
+            padding: 30px; 
+            background-color: white;
+            
+        }
+        .article{
+         grid-area: article;
+         margin: 3px;
+            border: 1px solid black;
+            padding: 30px; 
+            background-color: white;
+            
+        }
+       .aside{
+           grid-row: span 2;
+            display: grid;
+            margin: 3px ;
+            border: 1px solid black;
+            padding: 70px; 
+            background-color: white;
+            text-align: center;
+          
+           
+            
+       } 
+      
+       .container3{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            display: grid;
+            grid-template-areas: "header""nav";
+            grid-template-rows: auto;
+            grid-template-columns: auto;
+            width: 50%;
+            margin-left: 25%;
+            background-color: lightgray;
+        }
+        footer{
+            margin: 3px ;
+            border: 1px solid black;
+            padding: 15px; 
+            background-color: white;
+        }
+    </style>
+    <div class="container">
+        <header class="header"> < header> </header>
+        <nav class="nav"> < nav></nav>
+    </div>
+
+    <section class="container2">
+        <div class="section"> < section></div>
+        <div class="article">< article></div>
+        <div class="aside"> < aside></div>
+        
+    </section>  
+    <div class="container3">
+        <footer>< footer></footer>
+    </div>  
+    
+      
+    
+</body>
+</html>

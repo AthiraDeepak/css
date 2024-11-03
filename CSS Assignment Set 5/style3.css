@@ -1,0 +1,51 @@
+body{
+ 
+   background-color: rgb(199, 205, 205); 
+   font-family:'Times New Roman', Times, serif;
+}
+.main{
+    text-align: center;
+    
+}
+table{
+ margin-left: 25%;
+ margin-top: 30px;
+
+}
+table td{
+    text-align: left;
+    padding-left: 20px;
+}
+h3{
+    font-size: 15px;
+}
+.fa-mobile-screen-button{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 3px;
+}
+.fa-gear{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 3px;
+}
+.fa-lightbulb{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 3px;  
+}

@@ -1,0 +1,99 @@
+body{
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    width: 25%;
+    background-color: white;
+    margin: 30px;
+    text-align: center;
+    padding: 70px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -2px 2px 10px rgb(84, 83, 83);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1{
+    font-weight: normal;
+}
+
+
+input{
+    width: 300px;
+    padding: 15px;
+    background-color: rgb(240, 235, 235);
+    border: none;
+    
+}
+
+.fa-brands {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    border-radius: 100%;
+    font-weight: bold;
+  }
+
+
+  .fa-facebook-f{
+  border: 2px solid aqua;
+  color: rgb(6, 5, 5);
+}
+.fa-google-plus-g{
+    border: 2px solid aqua;
+    color: rgb(6, 5, 5);
+}
+.fa-linkedin-in{
+    border: 2px solid aqua;
+    color: rgb(6, 5, 5);
+}
+
+.btn1{
+    border-radius: 50px;
+    width: 120px;
+    border: 1px solid skyblue;
+    background-color: aqua;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+}
+.signup-section{
+    text-align: center;
+    width: 25%;
+    background-color: aqua;
+    float: left;
+    height: 319px;
+    padding: 80px;
+    margin-left: -30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 10px 5px 15px rgb(84, 83, 83);
+    border-radius: 0px 10px 10px 0px;
+    
+    
+ 
+}
+.signup-section h1{
+     font-weight: normal;
+     padding-top: 80px;
+     font-size: 30px;
+}
+.signup-section p{ 
+    color: skyblue;
+    
+}
+.btn2{ 
+    color: white;
+    border-radius: 50px;
+    width: 120px;
+   border: 2px solid white;
+   background-color: aqua;
+  
+    height: 30px;
+    font-weight: bold;
+}

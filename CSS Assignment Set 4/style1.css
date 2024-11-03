@@ -1,0 +1,143 @@
+section{
+    margin-left: 20%;
+    font-family:'Times New Roman', Times, serif;
+}
+#b1{
+    padding: 10px 0px 10px;
+    width: 120px;
+    margin: 2px; 
+    text-align: center;
+    float: left;
+    background-color: blue;
+    color: white;
+}
+#b2{
+    padding: 10px 0px 10px;
+    width: 120px;
+    margin: 2px; 
+    text-align: center;
+    float: left;
+    background-color: blue;
+    color: white;
+}
+#b3{
+    padding: 10px 0px 10px;
+    width: 120px;
+    margin: 2px; 
+    text-align: center;
+    float: left;
+    background-color: blue;
+    color: white;
+}
+#b4{
+    padding: 10px 0px 10px;
+    width: 120px;
+    margin: 2px; 
+    text-align: center;
+    float: left;
+    background-color: blue;
+    color: white;
+}
+#b5{
+    padding: 10px 0px 10px;
+    width: 120px;
+    margin: 2px; 
+    text-align: center;
+    float: left;
+    background-color: blue;
+    color: white;
+}
+#b6{
+    padding: 10px 0px 10px;
+    width: 120px;
+    margin: 2px; 
+    text-align: center;
+    float: left;
+    background-color: blue;
+    color: white;
+}
+
+#bg1{
+    height: 290px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: 0px 0px 8px rgb(29, 15, 212);
+    text-align: left;
+   padding-left: 8px;
+   
+}
+#bg2{
+    height: 290px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: 0px 0px 8px rgb(29, 15, 212);
+    text-align: left;
+   padding-left: 8px;
+  
+}
+#bg3{
+    height: 290px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: 0px 0px 8px rgb(29, 15, 212);
+    text-align: left;
+   padding-left: 8px;
+}
+#bg4{
+    height: 290px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: 0px 0px 8px rgb(29, 15, 212);
+    text-align: left;
+   padding-left: 8px;
+}
+#bg5{
+    height: 290px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: 0px 0px 8px rgb(29, 15, 212);
+    text-align: left;
+   padding-left: 8px;
+}
+#bg6{
+    height: 290px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: 0px 0px 8px rgb(29, 15, 212);
+    text-align: left;
+   padding-left: 8px;
+}
+#bg7{
+    height: 290px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: 0px 0px 8px rgb(29, 15, 212);
+    text-align: left;
+   padding-left: 8px;
+}
+#bg8{
+    height: 290px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    box-shadow: 0px 0px 8px rgb(29, 15, 212);
+    text-align: left;
+   padding-left: 8px;
+}
+
+.img{
+    width: 150px;
+    padding-left: 30px;
+    height: auto;
+}
+.img5{
+width: 210px;
+height: 90px;
+}

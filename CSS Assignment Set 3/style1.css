@@ -1,0 +1,49 @@
+.main{
+ 
+   text-align: center;
+}
+h1{
+    font-size: 40px;
+    color: darkcyan;
+}
+div{
+    padding: 20px 0px 20px;
+    width: 18%;
+    margin: 1%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold;  
+    line-height: 1.9;
+
+}
+div .fa{
+    font-weight: bold;
+    font-size: 30px;
+}
+.admision{
+    color: darkred;
+}
+.payment{
+    color: darkblue;
+}
+.Examination{
+    color:hsl(120, 100%, 25%);
+}
+.activity{
+    color: brown;
+}
+.transport{
+    color: dodgerblue;
+}
+.employee{
+    color:darkturquoise ;
+}
+.finance{
+    color: darkslateblue;
+}
+.app{
+    color: mediumvioletred;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #mainmenu{
+            background: black;
+            color: white;
+            margin: 0px;
+        }
+        #mainmenu li{
+            display: inline-block;
+            padding: 20px 40px 20px;
+            font-size: 20px;
+        }
+        .submenu{
+                background-color:blue;
+                position:absolute;
+                padding-left: 0px;
+                margin-top: 20px;
+                margin-left: -40px;
+                display:none;
+             }
+            .submenu li{
+                display:block !important;
+                padding-left:0px;
+            }
+            #mainmenu li:hover{
+                background-color: blue;
+            }
+            #mainmenu li:hover .submenu{
+                display:block;
+            }
+            .submenu li:hover{
+                background:magenta !important;
+                color:white;
+                cursor:pointer;
+            }
+    </style>
+    
+</head>
+<body>
+    <ul id="mainmenu">
+        <li> Home  </li>
+        <li> Services  </li>
+
+        <ul class="submenu">
+            <li> Services One </li>
+            <li> Services Two </li>
+            <li> Services Three </li>
+            <li> Services Four </li>
+            <li> Services Five </li>
+        </ul>
+
+        <li> About Us  </li>
+        <li> Branches  </li>
+
+        <ul class="submenu">
+            <li> Bangalore </li>
+            <li> Mubmai </li>
+            <li> Pune </li>
+            <li> Chennai </li>
+        </ul>
+
+        <li> Contact Us  </li>
+        <li> Support  </li>
+
+        <ul class="submenu">
+            <li> Chat </li>
+            <li> Call </li>
+            <li> Email </li>
+        </ul>
+    </ul>
+    
+</body>
+</html>

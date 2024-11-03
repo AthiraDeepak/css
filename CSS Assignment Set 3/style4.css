@@ -1,0 +1,32 @@
+section{
+  
+    margin-left: 25%;
+}
+
+div{
+    padding: 10px 0px 10px;
+    width: 150px;
+    margin: 2px;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+#bg1{background-color: blue;}
+#bg2{background-color: blue;}
+#bg3{ background-color: blue;}
+#bg4{ background-color: blue;}
+#bg5{ background-color: blue;}
+#bg6{ background-color: blue;}
+#bg7{background-color: blue;}
+#bg8{ background-color: blue;}
+
+h1{
+    margin-left: 70px;
+}
+
+.head li{
+    margin-left: 50px;
+    line-height: 2;
+}

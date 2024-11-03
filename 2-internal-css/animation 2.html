@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            body{margin: 0px;}
+           @keyframes mybanner{
+              25%{background-image: url(../1.jpg);}
+              50%{background-image: url(../3.jpg);}
+              75%{background-image: url(../4.jpg);}
+             
+           }
+
+            section{
+           height: 400px;
+           background-image: url(../2.jpg);
+           background-size: 100% 100%; 
+             animation: mybanner;
+             animation-duration: 5s;
+             animation-iteration-count: infinite;
+            }
+
+
+        </style>
+        <body>
+          <section>
+            <div></div>
+          </section>
+            
+        </body>
+    </head>
+</html>

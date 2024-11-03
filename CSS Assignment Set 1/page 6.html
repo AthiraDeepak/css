@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Set1:p6</title>
+</head>
+<body>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: "header header"" nav nav""content sidebar""footer footer";
+            grid-template-columns: 10fr 0fr;
+            grid-template-rows: auto;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .header{
+        grid-area: header;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 2px;
+        }
+        .nav{
+            grid-area: nav;
+            padding: 10px;
+            border: 2px solid black;
+            margin: 2px;
+        }
+        .content{
+            grid-area: content;
+            padding: 80px;
+            border: 2px solid black;
+            margin: 2px;
+           
+        }
+.sidebar{
+    grid-area: sidebar;
+            padding: 80px;
+            border: 2px solid black;
+            margin: 2px;
+        }
+        footer{
+            grid-area: footer;
+            padding: 10px;
+            border: 2px solid black;
+            margin: 2px;
+        }
+
+    </style>
+    <div class="container">
+      <header class="header"> HEADER</header>
+      <aside class="nav"> NAVIGATION</aside>
+      <main class="content"> CONTENT</main>
+      <aside class="sidebar"> SIDEBAR </aside>
+      <footer> FOOTER</footer>
+
+    </div>
+    
+</body>
+</html>

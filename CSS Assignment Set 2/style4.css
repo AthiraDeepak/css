@@ -1,0 +1,49 @@
+h1{
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#topnav{
+    margin: 0px;
+    
+    background-color: black;
+}
+#topnav li{
+display: inline-block;
+padding: 13px 85px 13px;
+
+}
+#topnav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#topnav li:hover{
+    background: rgb(90, 10, 12);
+    cursor: pointer;
+}
+
+.header h2{
+    display:inline-block;
+    padding: 10px 200px 13px;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#blog-post{
+   display: inline-block;
+    margin-left: 200px;
+    
+    }
+    .para{
+        float: left;
+    }
+ 
+.pic{
+   
+    width: 17%;
+    height: 180px;
+
+}
+
+

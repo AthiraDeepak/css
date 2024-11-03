@@ -1,0 +1,30 @@
+.header{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 30px;
+}
+.sub-head{
+    display: flex;
+    background-color: rgb(52, 46, 46);
+    color: white;
+}
+li{
+    padding: 10px 20px 10px;
+    list-style-type: none;  /* remove dot */ 
+}
+#main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   }
+   .column{
+    margin: 30px;
+    text-align: center;
+   }
+   .column p{
+    text-align: justify;
+    line-height: 1.4;
+   }
+   h2{
+    color: rgb(32, 185, 32);
+   }
